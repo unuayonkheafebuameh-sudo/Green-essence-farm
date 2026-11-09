@@ -15,7 +15,7 @@ export default function Footer() {
               width={91}
               height={46}
               loading="lazy"
-              className="h-[46px] w-auto rounded-lg bg-black"
+              className="h-[50px] w-auto rounded-lg bg-white px-2 py-1"
             />
             <p className="mt-3">
               <strong className="text-white">{siteConfig.name}</strong>
