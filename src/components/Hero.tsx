@@ -15,7 +15,7 @@ export default function Hero() {
           alt="Green Essence Farms logo"
           width={146}
           height={74}
-          className="mb-6 h-[74px] w-auto rounded-xl bg-black"
+          className="mb-6 h-[78px] w-auto rounded-xl bg-white p-2"
         />
         <p className="mb-4 text-xs font-semibold uppercase tracking-[0.14em] text-gold-300 sm:text-sm">
           {siteConfig.tagline}
