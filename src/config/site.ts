@@ -8,15 +8,15 @@ export const siteConfig = {
   phone: "+2348060331985",
   phoneDisplay: "+234 806 033 1985",
   whatsappNumber: "2348060331985", // digits only, no "+"
-  address: {
-    street: "Eastern Bypass",
+    address: {
+    street: "Dun-dun, behind Niger State Water Board, Chanchaga",
     city: "Minna",
     region: "Niger State",
     country: "NG",
-    line: "Eastern Bypass, Minna, Niger State",
+    line: "Dun-dun, behind Niger State Water Board, Chanchaga, Minna, Niger State",
   },
   // Map embed is built from this text. Set to "" to hide the map.
-  mapQuery: "Eastern Bypass, Minna, Niger State, Nigeria",
+    mapQuery: "Niger State Water Board, Chanchaga, Minna, Niger State, Nigeria",
   logo: "/images/logo/green-essence-farms-logo.png",
   ogImage: "/og-image.jpg",
   // Add social links when ready, e.g. { label: "Facebook", href: "https://..." }
