@@ -5,7 +5,6 @@ import Products from "@/components/Products";
 import HowItWorks from "@/components/HowItWorks";
 import WhyChoose from "@/components/WhyChoose";
 import BulkQuote from "@/components/BulkQuote";
-import Gallery from "@/components/Gallery";
 import Faq from "@/components/Faq";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -22,7 +21,6 @@ export default function Home() {
         <HowItWorks />
         <WhyChoose />
         <BulkQuote />
-        <Gallery />
         <Faq />
         <Contact />
       </main>
