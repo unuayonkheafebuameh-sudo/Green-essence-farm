@@ -1,15 +1,12 @@
 import { siteConfig } from "@/config/site";
 import WhatsAppButton from "./WhatsAppButton";
 import CallButton from "./CallButton";
+import HeroVisual from "./three/HeroVisual";
 
 export default function Hero() {
   return (
     <section id="home" className="hero-bg relative flex min-h-[100svh] items-center overflow-hidden text-white">
-      {/* CSS floating leaves: light fallback used on all devices. The 3D scene arrives in Part 3. */}
-      <div aria-hidden="true" className="pointer-events-none absolute right-[4%] top-[22%] hidden aspect-square w-[min(34vw,340px)] md:block">
-        <i className="absolute inset-0 animate-float rounded-[0_80%_0_80%] bg-gradient-to-br from-[#9be15d] to-[#1f7a34] shadow-2xl" />
-        <i className="absolute inset-[18%_10%_10%_30%] animate-float rounded-[0_80%_0_80%] bg-gradient-to-br from-[#c7ee7a] to-[#3c9a3f] [animation-delay:-2s]" />
-      </div>
+      <HeroVisual />
 
       <div className="relative z-10 mx-auto w-full max-w-6xl px-5 pb-20 pt-32">
         {/* eslint-disable-next-line @next/next/no-img-element */}
