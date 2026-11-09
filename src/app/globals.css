@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 76px;
+}
+
+body {
+  @apply bg-white font-sans text-[#16241a] antialiased;
+}
+
+/* Layered cinematic hero gradient. To use a photo, put it first:
+   background: url('/images/hero/hero-minna-farmland.jpg') center/cover, ... */
+.hero-bg {
+  background:
+    linear-gradient(90deg, rgba(8, 32, 16, 0.9) 0%, rgba(8, 32, 16, 0.55) 45%, rgba(8, 32, 16, 0) 80%),
+    linear-gradient(180deg, rgba(12, 42, 23, 0.55) 0%, rgba(12, 42, 23, 0) 35%, rgba(5, 22, 11, 0.95) 100%),
+    radial-gradient(ellipse 60% 55% at 85% 30%, #c9d95a 0%, #8fb94a 35%, rgba(70, 130, 60, 0) 75%),
+    radial-gradient(ellipse 80% 40% at 30% 75%, #2f6b32 0%, rgba(30, 80, 40, 0) 80%),
+    linear-gradient(135deg, #123d20, #3f7d37 60%, #9cbc4e);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
