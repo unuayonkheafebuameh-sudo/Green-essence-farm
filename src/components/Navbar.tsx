@@ -33,7 +33,7 @@ export default function Navbar() {
             alt="Green Essence Farms logo"
             width={91}
             height={46}
-            className="h-[46px] w-auto rounded-lg bg-black"
+            className="h-[46px] w-auto rounded-lg bg-white"
           />
         </a>
 
