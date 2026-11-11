@@ -8,10 +8,15 @@ export default function About() {
     <section id="about" className="py-16 sm:py-24">
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-2">
         <Reveal>
-          {/* Replace with: <img src="/images/gallery/vegetable-beds-minna.jpg" ... /> */}
-          <div className="flex min-h-[340px] items-end rounded-2xl bg-gradient-to-br from-[#3a8a3a] to-brand-700 p-4 text-xs text-white">
-            <span className="rounded-full bg-black/45 px-3 py-1">Add photo: /public/images/gallery/vegetable-beds-minna.jpg</span>
-          </div>
+          <div
+            role="img"
+            aria-label="Vegetable beds at Green Essence Farms in Minna"
+            className="min-h-[340px] rounded-2xl bg-cover bg-center"
+            style={{
+              backgroundImage:
+                "url('/images/about/vegetable-beds-minna.jpg'), linear-gradient(160deg, #3a8a3a, #14532d)",
+            }}
+          />
         </Reveal>
         <Reveal delay={0.1}>
           <SectionHeading eyebrow="About Us" title="Vegetables all year, not just in the rains" />
